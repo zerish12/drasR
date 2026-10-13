@@ -1,0 +1,30 @@
+Package: drasR
+Type: Package
+Title: Drift-Aware Risk-Guaranteed Acceptance Sampling
+Version: 0.1.0
+Authors@R: person("Muhammad Zahir", "Khan",
+    email = "zahirstat007@gmail.com",
+    role = c("aut", "cre"))
+Description: Implements drift-aware risk-guaranteed acceptance sampling
+    methods for adaptive lot disposition. The package provides tools for
+    classical acceptance sampling, producer-risk and consumer-risk
+    assessment, exponentially weighted moving average drift monitoring,
+    adaptive tightening policies, decision fragility analysis, and
+    safety-cost Pareto frontier construction. The methods are intended for
+    simulation studies, supplier quality monitoring, and audit-oriented
+    inspection decision support.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1.0)
+Imports:
+    stats,
+    graphics,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
