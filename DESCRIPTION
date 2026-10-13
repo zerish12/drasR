@@ -28,3 +28,5 @@ Suggests:
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.1
+URL: https://github.com/zerish12/drasR
+BugReports: https://github.com/zerish12/drasR/issues
